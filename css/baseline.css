@@ -14,7 +14,7 @@
 
 /* TYPOGRAPHY */
     body {
-
+        color:#545454;
     }
 
     p {
@@ -22,7 +22,7 @@
     }
 
     h1 {
-
+        color:#437A2D;
     }
 
     h2 {
@@ -31,6 +31,10 @@
 
     h3 {
 
+    }
+
+    .text-center {
+        text-align: center;
     }
 
 
@@ -44,11 +48,14 @@
         width:90%;
         max-width:600px;
         padding: 5%;
-        text-align:center;
         margin:0 auto;
     }
 
-/* Share Buttons */
+    .top-divider {
+        border-top:2px dotted #e0ebe8;
+    }
+
+/* Buttons */
 
     .share-button, .button {
         width: 100%;
@@ -72,7 +79,7 @@
         font-size: 18px;
         font-weight: 900;
         letter-spacing: 1px;
-        text-transform: uppercase;
+        text-transform: none;
         text-decoration: none;
         color:#ffffff;
         border-radius: 20px;
@@ -116,6 +123,12 @@
 
 /* Blog Posts on Home Page */
 
+/* Testimonials section */
+
+    .client {
+        font-style:italic;
+    }
+
 /* Misc */
     
     .headshot {
@@ -153,6 +166,10 @@
 
 
     /* button styles */
+
+        .button {
+            width:auto;
+        }
 
         .donate-button {
             width:300px;
