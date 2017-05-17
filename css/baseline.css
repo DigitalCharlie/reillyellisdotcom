@@ -75,7 +75,7 @@
     button, .btn, .button {
         display: inline-block;
         text-align: center;
-        padding:8px 14px;
+        padding:8px 0;
         font-size: 18px;
         font-weight: 900;
         letter-spacing: 1px;
@@ -169,6 +169,7 @@
 
         .button {
             width:auto;
+            padding: 8px 14px;
         }
 
         .donate-button {
