@@ -68,36 +68,27 @@
     button, .btn, .button {
         display: inline-block;
         text-align: center;
-        padding:8px 0;
+        padding:8px 14px;
         font-size: 18px;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
         text-decoration: none;
         color:#ffffff;
-        border-radius: 5px;
+        border-radius: 20px;
         cursor: pointer;
         border-style: none;
+        margin-bottom:5px;
     }
 
-    .button {
+    button, .btn, .button {
+        background: #437A2D;
+    }
+
+    button:hover, .btn:hover, .button:hover {
         background: #71d4dd;
-    }
-
-    button, .btn {
-        background: #ec476b;
-    }
-
-    button:hover, .btn:hover {
-        background: #71d4dd;
-        transition-duration: .5s;
-        -webkit-transition-duration: .5s;
-    }
-
-    .button:hover {
-        background: #ec476b;
-        transition-duration: .5s;
-        -webkit-transition-duration: .5s;
+        transition-duration: .2s;
+        -webkit-transition-duration: .2s;
     }
 
     .donate-button {
@@ -124,6 +115,14 @@
     }
 
 /* Blog Posts on Home Page */
+
+/* Misc */
+    
+    .headshot {
+        width:200px;
+        max-width:30%;
+    }
+
 
 
 @media screen and (min-width: 650px) {
@@ -154,11 +153,6 @@
 
 
     /* button styles */
-
-        .buttons {
-            max-width:400px;
-            margin:0 auto 5px;
-        }
 
         .donate-button {
             width:300px;
