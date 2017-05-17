@@ -53,7 +53,7 @@
         -webkit-transition-duration: .5s;
     }
 
-    .shareButtons {
+    .buttons {
         width:100%;
     }
 
@@ -144,7 +144,7 @@
 
     /* button styles */
 
-        .shareButtons {
+        .buttons {
             max-width:400px;
             margin:0 auto 5px;
         }
